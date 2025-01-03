@@ -6,6 +6,8 @@ import LoginPage from "./pages/LoginPage";
 import AdminPage from "./pages/AdminPage";
 import CategoryPage from "./pages/CategoryPage";
 import UserPage from "./pages/UserPage";
+import FaqPage from "./pages/FaqPage";
+
 
 import Navbar from "./components/Navbar";
 import { Toaster } from "react-hot-toast";
@@ -16,7 +18,7 @@ import CartPage from "./pages/CartPage";
 import { useCartStore } from "./stores/useCartStore";
 import PurchaseSuccessPage from "./pages/PurchaseSuccessPage";
 import PurchaseCancelPage from "./pages/PurchaseCancelPage";
-import FaqPage from "./pages/faqPage";
+
 
 function App() {
   const { user, checkAuth, checkingAuth } = useUserStore();
